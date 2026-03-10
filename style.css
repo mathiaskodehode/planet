@@ -49,10 +49,18 @@ body {
     font-size: 275px;
 }
 
-.heroTextContainer p,
-.infoTextContainer p,
-.infoTextContainer h3 {
+.heroTextContainer p {
     font-size: 48px;
+}
+
+.infoTextContainer h3 {
+    font-size: 64px;
+    width: 70%;
+}
+
+.infoTextContainer p {
+    font-size: 32px;
+    width: 85%;
 }
 
 .infoTextContainer {
