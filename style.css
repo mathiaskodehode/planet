@@ -6,6 +6,8 @@
     --heroBackground: url('./images/pia01492-neptune-full-disk-16x9-1.jpg');
     --infoBackground: url('./images/PIA21629-neptune-from-saturn.jpg');
     --heroHeight: 735px;
+    --navbarBackgroundColor: rgba(0, 0, 0, 0.85);
+    --hoverTextColor: rgb(69, 140, 235);
 }
 
 * {
@@ -29,12 +31,18 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: var(--navbarBackgroundColor);
 }
 
 nav a {
+    color: var(--fontColor);
     text-decoration: none;
     padding: 5px 10px;
     margin: 0 10px;
+}
+
+nav a:hover {
+    color: var(--hoverTextColor);
 }
 
 .hero,
