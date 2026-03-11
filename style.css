@@ -70,7 +70,7 @@ nav a:hover {
     height: 100%;
 }
 
-.heroTextContainer h2 {
+.heroTextContainer h1 {
     font-size: 275px;
 }
 
@@ -78,7 +78,7 @@ nav a:hover {
     font-size: 48px;
 }
 
-.infoTextContainer h3 {
+.infoTextContainer h2 {
     font-size: 64px;
     width: 70%;
 }
