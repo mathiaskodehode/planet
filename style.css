@@ -15,6 +15,10 @@
     /* outline: red solid 1px; */
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--backgroundColor);
     color: var(--fontColor);
