@@ -151,7 +151,7 @@ h2 {
     max-width: 25%;
     border-radius: 16px;
     padding: 32px;
-    background: #202020aa;
+    background: #202020df;
     text-align: left;
 }
 
@@ -172,4 +172,13 @@ h2 {
 .cookieBannerButtons button {
     width: 30%;
     height: 30px;
+    color: var(--fontColor);
+}
+
+#cookiesDeclineButton {
+    background-color: red;
+}
+
+#cookiesAcceptButton {
+    background-color: green
 }
